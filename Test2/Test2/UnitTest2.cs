@@ -11,7 +11,7 @@ namespace Test2
         [Test]
         public void Test2()
         {
-            // Проверка функциональности метода по значению, большему 255
+            // РџСЂРѕРІРµСЂРєР° С„СѓРЅРєС†РёРѕРЅР°Р»СЊРЅРѕСЃС‚Рё РјРµС‚РѕРґР° РїРѕ Р·РЅР°С‡РµРЅРёСЋ, Р±РѕР»СЊС€РµРјСѓ 255
             MainClass test = new MainClass(25);
             int result = test.GetDifference(256);
             Assert.That(result, Is.EqualTo(0));

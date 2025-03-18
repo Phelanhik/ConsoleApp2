@@ -11,7 +11,7 @@ namespace Test3
         [Test]
         public void Test3()
         {
-            // Проверка функциональности метода по значению, меньшему 0
+            // РџСЂРѕРІРµСЂРєР° С„СѓРЅРєС†РёРѕРЅР°Р»СЊРЅРѕСЃС‚Рё РјРµС‚РѕРґР° РїРѕ Р·РЅР°С‡РµРЅРёСЋ, РјРµРЅСЊС€РµРјСѓ 0
             MainClass test = new MainClass(75);
             int result = test.GetDifference(-1);
             Assert.That(result, Is.EqualTo(255));
