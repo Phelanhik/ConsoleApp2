@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LearnDLL</name>
+    </assembly>
+    <members>
+        <member name="M:LearnDLL.MainClass.#ctor(System.Int32)">
+            <summary>
+            Конструктор класса MainClass
+            </summary>
+            <param name="input_value">значение от 0 до 255, иначе появиться исключение типа Exeption</param>
+        </member>
+        <member name="M:LearnDLL.MainClass.GetDifference(System.Int32)">
+            <summary>
+            Метод вычитает значение value из числа передеданного в конструктор класса MainClass
+            Если входное значение превышает 255 - вернется 0
+            Если входное значение меньше 0 - вернется 255
+            </summary>
+            <param name="value">Любое целое значение int</param>
+            <returns>Разница от вычитания, от 0 до 255</returns>
+        </member>
+    </members>
+</doc>

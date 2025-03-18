@@ -19,7 +19,7 @@
 
   <ItemGroup>
     <Reference Include="LearnDLL">
-      <HintPath>..\..\..\LearnDLL.dll</HintPath>
+      <HintPath>..\LearnDLL.dll</HintPath>
     </Reference>
   </ItemGroup>
 
