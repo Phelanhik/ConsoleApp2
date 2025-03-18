@@ -15,9 +15,9 @@ namespace Test1
             {
                 int result = test.GetDifference(i);
                 Assert.That(result, Is.EqualTo(100 - i));
-
             }
         }
+
         [Test]
         public void Test2()
         {
@@ -25,8 +25,8 @@ namespace Test1
             MainClass test = new MainClass(25);
             int result = test.GetDifference(256);
             Assert.That(result, Is.EqualTo(0));
-
         }
+
         [Test]
         public void Test3()
         {
@@ -34,16 +34,15 @@ namespace Test1
             MainClass test = new MainClass(75);
             int result = test.GetDifference(-1);
             Assert.That(result, Is.EqualTo(255));
-
         }
+
         [Test]
         public void Test4()
         {
             // Проверка правильности создания класса при попадании в интервал от 0 до 255
             MainClass test = new MainClass(100);
-
-
         }
+
         [Test]
         public void Test5()
         {
